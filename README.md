@@ -11,7 +11,7 @@ This project is divided into four separate modules:
 
 Let's learn about them in details below:
 
-###1. Web Scraping
+### 1. Web Scraping
 We have scraped insight articles from following websites:
 
 i. Morgan Stanley Investment Management
@@ -30,7 +30,7 @@ Run command example: `python msimInsight.py`
 
 This will create a `/WEB/MSIM` folder, which will contain the content of all the insight files where the name of the file is a normalized insight URL address.
 
-###2. Pre-processing
+### 2. Pre-processing
 
 Once we have content data from all the insight articles, we are using `spaCy` [https://spacy.io/] library for:
 
@@ -46,7 +46,7 @@ v.  object analysis and defining grammar
 
 Code for this can be found under `pre-processing` folder.
 
-###3. Topic Modelling
+### 3. Topic Modelling
 
 For topic modelling we are leveraging `gensim` [https://radimrehurek.com/gensim/] library which can help for analyzing plain-text documents for semantic structure. We are using gensim for:
 
