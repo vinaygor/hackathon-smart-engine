@@ -1,0 +1,31 @@
+2019-11-19 01:17:17.377180
+Document-Topic Mapping from the LDA Model:model/lda_model_msim_test_2019-11-19_01-13-03.txt.
+
+Document Path:data/msim_test/*
+
+data/msim_test/httpswwwmorganstanleycomimenusinstitutionalinvestorinsightssustainabilityinsightthemesinESGconsumerstaplescompanieshtml.txt:[(0, 0.054345798), (2, 0.8320268), (7, 0.11342889)]
+data/msim_test/httpswwwmorganstanleycomimenusinstitutionalinvestorinsightssustainabilityinsightthemesinesghealthcarehtml.txt:[(0, 0.17236716), (2, 0.7045764), (7, 0.12282103)]
+data/msim_test/httpswwwmorganstanleycomimenusinstitutionalinvestorinsightsmacroinsightswheretofromherehtml.txt:[(0, 0.08468576), (2, 0.59740216), (5, 0.10734678), (7, 0.092447385), (8, 0.03143502), (9, 0.0866488)]
+data/msim_test/httpswwwmorganstanleycomimenusinstitutionalinvestorinsightsmacroinsightsthreeclimatetippingpointsshapingmarketstodayhtml.txt:[(0, 0.035168596), (2, 0.49696425), (5, 0.09334808), (7, 0.15170804), (9, 0.222758)]
+data/msim_test/httpswwwmorganstanleycomimenusinstitutionalinvestorinsightsmacroinsightswhyinvestinternationallyhtml.txt:[(0, 0.05733231), (2, 0.84170216), (7, 0.10076558)]
+data/msim_test/httpswwwmorganstanleycomimenusinstitutionalinvestorinsightsmacroinsightssecularoutlookforbondyieldsstructurallyhigherhtml.txt:[(0, 0.25275406), (2, 0.19238251), (7, 0.5537892)]
+data/msim_test/httpswwwmorganstanleycomimenusinstitutionalinvestorinsightssustainabilityinsighttacklingplasticshtml.txt:[(0, 0.041970763), (2, 0.8582063), (7, 0.099601425)]
+data/msim_test/httpswwwmorganstanleycomimenusinstitutionalinvestorinsightsmacroinsightsvolatilityanduncertaintycontinuehtml.txt:[(0, 0.07476814), (2, 0.57188505), (5, 0.10129058), (7, 0.1319503), (9, 0.120056815)]
+data/msim_test/httpswwwmorganstanleycomimenusinstitutionalinvestorinsightsinvestmentinsightsthetworiskswemanageearningsandmultipleshtml.txt:[(0, 0.06182951), (2, 0.839201), (7, 0.08057471), (9, 0.018261379)]
+data/msim_test/httpswwwmorganstanleycomimenusinstitutionalinvestorinsightsinvestmentinsightsyieldfocusedesgapproachhtml.txt:[(0, 0.08322755), (2, 0.8160282), (3, 0.017250797), (7, 0.08336222)]
+data/msim_test/httpswwwmorganstanleycomimenusinstitutionalinvestorinsightsmacroinsightsvalueintheeurozonehtml.txt:[(0, 0.09797649), (7, 0.7876393), (9, 0.111928046)]
+data/msim_test/httpswwwmorganstanleycomimenusinstitutionalinvestorinsightsinvestmentinsightstheriseofhedgefundcoinvestmentshtml.txt:[(0, 0.062911764), (2, 0.8035303), (6, 0.016430184), (7, 0.08831956), (9, 0.028666988)]
+data/msim_test/httpswwwmorganstanleycomimenusinstitutionalinvestorinsightsmacroinsightswhyitsdifferentthistimehtml.txt:[(0, 0.058001425), (2, 0.5384272), (5, 0.09463771), (7, 0.11959148), (9, 0.18929735)]
+data/msim_test/httpswwwmorganstanleycomimenusinstitutionalinvestorinsightsinvestmentinsightswhenmanagementgetsstrategichtml.txt:[(0, 0.15616332), (2, 0.7004353), (7, 0.14320146)]
+data/msim_test/httpswwwmorganstanleycomimenusinstitutionalinvestorinsightsinvestmentinsightsweatheringthestormhtml.txt:[(0, 0.12203839), (2, 0.25301093), (5, 0.036950305), (6, 0.02630522), (7, 0.24335101), (8, 0.09649286), (9, 0.22184126)]
+data/msim_test/httpswwwmorganstanleycomimenusinstitutionalinvestorinsightsmacroinsightsthebullcasefortheushealthcaresectorhtml.txt:[(0, 0.11147717), (2, 0.46694374), (7, 0.420768)]
+data/msim_test/httpswwwmorganstanleycomimenusinstitutionalinvestorinsightssustainabilityinsightsustainablesignalshtml.txt:[(0, 0.13143943), (2, 0.597651), (7, 0.27054524)]
+data/msim_test/httpswwwmorganstanleycomimenusinstitutionalinvestorinsightsmacroinsightstugofwarhtml.txt:[(0, 0.06657822), (2, 0.6555286), (5, 0.113863416), (7, 0.10978103), (9, 0.054186992)]
+data/msim_test/httpswwwmorganstanleycomimenusinstitutionalinvestorinsightsmacroinsightsruchirsharmaoncnbc20190722html.txt:[(0, 0.16821367), (7, 0.8248156)]
+data/msim_test/httpswwwmorganstanleycomimenusinstitutionalinvestorinsightspressreleasefusionannouncesagreementtoacquirebirchbusinesseshtml.txt:[(0, 0.12763938), (2, 0.6368462), (7, 0.23521847)]
+data/msim_test/httpswwwmorganstanleycomimenusinstitutionalinvestorinsightsinvestmentinsightstheriseoftransformationalsecondarieshtml.txt:[(0, 0.13384874), (2, 0.6979803), (7, 0.11898537), (8, 0.03072017), (9, 0.018375847)]
+data/msim_test/httpswwwmorganstanleycomimenusinstitutionalinvestorinsightsinvestmentinsightstheimpactofmachinelearningonconsumerlendinghtml.txt:[(0, 0.07024108), (2, 0.7328829), (7, 0.19669105)]
+data/msim_test/httpswwwmorganstanleycomimenusinstitutionalinvestorinsightsinvestmentinsightsthevalueofengagementhtml.txt:[(0, 0.10082613), (2, 0.5204045), (7, 0.3344535), (9, 0.04384955)]
+data/msim_test/httpswwwmorganstanleycomimenusinstitutionalinvestorinsightsinvestmentinsightswheretonextaframeworkforresiliencehtml.txt:[(0, 0.10179233), (2, 0.73197967), (5, 0.05533903), (7, 0.110774785)]
+data/msim_test/httpswwwmorganstanleycomimenusinstitutionalinvestorinsightssustainabilityinsightthemesinESGsoftwareandserviceshtml.txt:[(0, 0.096414804), (2, 0.74898946), (7, 0.15428898)]
+data/msim_test/httpswwwmorganstanleycomimenusinstitutionalinvestorinsightsinvestmentinsightstradewarwhatisitgoodforhtml.txt:[(0, 0.1381073), (2, 0.7212346), (7, 0.14043136)]

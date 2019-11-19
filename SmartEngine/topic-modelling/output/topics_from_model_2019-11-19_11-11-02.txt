@@ -1,0 +1,56 @@
+2019-11-19 11:11:02.195489
+Topics from the trained LDA Model:model/lda_model_msim_test_2019-11-19_11-11-02.txt.
+Dictionary File Name:output/dictionary_2019-11-19_11-11-02.txt.
+
+num_topics:10
+chunksize:200
+passes:20
+iterations:40
+num_words:3
+dict_no_below:not added
+dict_no_above:not added
+
+[(0, '0.013*"country" + 0.013*"approach" + 0.013*"esg"'),
+ (1, '0.013*"incorporate" + 0.013*"invest" + 0.013*"income"'),
+ (2, '0.013*"incorporate" + 0.013*"invest" + 0.013*"income"'),
+ (3, '0.058*"country" + 0.044*"esg" + 0.044*"approach"'),
+ (4, '0.013*"opportunity" + 0.013*"issue" + 0.013*"plastic"'),
+ (5, '0.013*"opportunity" + 0.013*"plastic" + 0.013*"company"'),
+ (6, '0.013*"country" + 0.013*"approach" + 0.013*"esg"'),
+ (7, '0.050*"issue" + 0.050*"company" + 0.050*"plastic"'),
+ (8, '0.013*"incorporate" + 0.013*"invest" + 0.013*"income"'),
+ (9, '0.013*"incorporate" + 0.013*"invest" + 0.013*"income"')]
+
+Topics with coherence:
+[([(0.012827334, 'country'), (0.012825948, 'approach'), (0.012825397, 'esg')],
+  1.999955756557757e-12),
+ ([(0.012820513, 'incorporate'),
+   (0.012820513, 'invest'),
+   (0.012820513, 'income')],
+  1.999955756557757e-12),
+ ([(0.012820513, 'incorporate'),
+   (0.012820513, 'invest'),
+   (0.012820513, 'income')],
+  1.999955756557757e-12),
+ ([(0.012834033, 'opportunity'),
+   (0.012833683, 'issue'),
+   (0.012831171, 'plastic')],
+  1.999955756557757e-12),
+ ([(0.012936215, 'opportunity'),
+   (0.012916434, 'plastic'),
+   (0.012904187, 'company')],
+  1.999955756557757e-12),
+ ([(0.012858323, 'country'), (0.012840731, 'approach'), (0.012836932, 'esg')],
+  1.999955756557757e-12),
+ ([(0.050241746, 'issue'), (0.050234593, 'company'), (0.050232086, 'plastic')],
+  1.999955756557757e-12),
+ ([(0.012820513, 'incorporate'),
+   (0.012820513, 'invest'),
+   (0.012820513, 'income')],
+  1.999955756557757e-12),
+ ([(0.012820513, 'incorporate'),
+   (0.012820513, 'invest'),
+   (0.012820513, 'income')],
+  1.999955756557757e-12),
+ ([(0.057908505, 'country'), (0.043785933, 'esg'), (0.04378516, 'approach')],
+  -0.23104906018464846)]

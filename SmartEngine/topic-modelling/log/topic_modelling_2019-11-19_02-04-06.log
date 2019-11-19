@@ -1,0 +1,2 @@
+2019-11-19 02:04:07,662 : INFO : loading LdaModel object from model/llda_model_msim_test_2019-11-19_01-58-06.txt
+2019-11-19 02:04:07,662 : DEBUG : {'transport_params': None, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': 'model/llda_model_msim_test_2019-11-19_01-58-06.txt'}

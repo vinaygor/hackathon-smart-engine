@@ -1,0 +1,287 @@
+2019-11-19 11:11:02,115 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2019-11-19 11:11:02,115 : INFO : built Dictionary(78 unique tokens: ['address', 'agenda', 'assess', 'believe', 'benefit']...) from 2 documents (total 97 corpus positions)
+2019-11-19 11:11:02,117 : INFO : using autotuned alpha, starting with [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+2019-11-19 11:11:02,118 : INFO : using serial LDA version on this node
+2019-11-19 11:11:02,118 : INFO : running online (multi-pass) LDA training, 10 topics, 20 passes over the supplied corpus of 2 documents, updating model once every 2 documents, evaluating perplexity every 2 documents, iterating 40x with a convergence threshold of 0.001000
+2019-11-19 11:11:02,119 : DEBUG : bound: at document #0
+2019-11-19 11:11:02,121 : INFO : -14.005 per-word bound, 16442.1 perplexity estimate based on a held-out corpus of 2 documents with 97 words
+2019-11-19 11:11:02,121 : INFO : PROGRESS: pass 0, at document #2/2
+2019-11-19 11:11:02,121 : DEBUG : performing inference on a chunk of 2 documents
+2019-11-19 11:11:02,123 : DEBUG : 0/2 documents converged within 40 iterations
+2019-11-19 11:11:02,123 : INFO : optimized alpha [0.11156814, 0.05626649, 0.05626585, 0.1268513, 0.11405708, 0.17369862, 0.11819661, 0.12086226, 0.056265626, 0.056265794]
+2019-11-19 11:11:02,124 : DEBUG : updating topics
+2019-11-19 11:11:02,124 : INFO : topic #2 (0.056): 0.013*"country" + 0.013*"esg" + 0.013*"opportunity" + 0.013*"plastic" + 0.013*"environmental" + 0.013*"governance" + 0.013*"investment" + 0.013*"social" + 0.013*"company" + 0.013*"approach"
+2019-11-19 11:11:02,124 : INFO : topic #8 (0.056): 0.013*"opportunity" + 0.013*"country" + 0.013*"esg" + 0.013*"approach" + 0.013*"company" + 0.013*"environmental" + 0.013*"plastic" + 0.013*"high" + 0.013*"issue" + 0.013*"investment"
+2019-11-19 11:11:02,124 : INFO : topic #7 (0.121): 0.051*"issue" + 0.040*"company" + 0.037*"plastic" + 0.032*"opportunity" + 0.029*"consumption" + 0.028*"evaluate" + 0.027*"assess" + 0.027*"sustainability" + 0.026*"differentiate" + 0.025*"believe"
+2019-11-19 11:11:02,124 : INFO : topic #3 (0.127): 0.054*"country" + 0.044*"esg" + 0.043*"approach" + 0.030*"factor" + 0.028*"develop" + 0.028*"investment" + 0.016*"good" + 0.016*"pool" + 0.016*"yielding" + 0.016*"broadly"
+2019-11-19 11:11:02,124 : INFO : topic #5 (0.174): 0.050*"opportunity" + 0.047*"plastic" + 0.044*"company" + 0.032*"issue" + 0.027*"agenda" + 0.027*"esg" + 0.025*"address" + 0.025*"corporate" + 0.024*"topical" + 0.024*"social"
+2019-11-19 11:11:02,125 : INFO : topic diff=5.877888, rho=1.000000
+2019-11-19 11:11:02,125 : DEBUG : bound: at document #0
+2019-11-19 11:11:02,127 : INFO : -5.883 per-word bound, 59.0 perplexity estimate based on a held-out corpus of 2 documents with 97 words
+2019-11-19 11:11:02,127 : INFO : PROGRESS: pass 1, at document #2/2
+2019-11-19 11:11:02,127 : DEBUG : performing inference on a chunk of 2 documents
+2019-11-19 11:11:02,128 : DEBUG : 1/2 documents converged within 40 iterations
+2019-11-19 11:11:02,128 : INFO : optimized alpha [0.07746622, 0.04748263, 0.04748219, 0.13936204, 0.07844539, 0.15997076, 0.08000681, 0.13030362, 0.047482036, 0.04748215]
+2019-11-19 11:11:02,129 : DEBUG : updating topics
+2019-11-19 11:11:02,129 : INFO : topic #9 (0.047): 0.013*"opportunity" + 0.013*"high" + 0.013*"esg" + 0.013*"plastic" + 0.013*"environmental" + 0.013*"company" + 0.013*"country" + 0.013*"issue" + 0.013*"approach" + 0.013*"topical"
+2019-11-19 11:11:02,129 : INFO : topic #1 (0.047): 0.013*"opportunity" + 0.013*"plastic" + 0.013*"environmental" + 0.013*"company" + 0.013*"esg" + 0.013*"country" + 0.013*"issue" + 0.013*"high" + 0.013*"approach" + 0.013*"social"
+2019-11-19 11:11:02,129 : INFO : topic #7 (0.130): 0.053*"issue" + 0.045*"company" + 0.042*"plastic" + 0.037*"opportunity" + 0.029*"evaluate" + 0.029*"consumption" + 0.028*"assess" + 0.028*"sustainability" + 0.027*"differentiate" + 0.027*"believe"
+2019-11-19 11:11:02,129 : INFO : topic #3 (0.139): 0.057*"country" + 0.044*"esg" + 0.043*"approach" + 0.030*"factor" + 0.029*"develop" + 0.029*"investment" + 0.016*"good" + 0.016*"pool" + 0.016*"yielding" + 0.016*"broadly"
+2019-11-19 11:11:02,130 : INFO : topic #5 (0.160): 0.053*"opportunity" + 0.046*"plastic" + 0.042*"company" + 0.030*"agenda" + 0.027*"issue" + 0.026*"esg" + 0.025*"topical" + 0.025*"address" + 0.024*"corporate" + 0.024*"create"
+2019-11-19 11:11:02,130 : INFO : topic diff=0.419238, rho=0.577350
+2019-11-19 11:11:02,130 : DEBUG : bound: at document #0
+2019-11-19 11:11:02,131 : INFO : -5.589 per-word bound, 48.1 perplexity estimate based on a held-out corpus of 2 documents with 97 words
+2019-11-19 11:11:02,131 : INFO : PROGRESS: pass 2, at document #2/2
+2019-11-19 11:11:02,131 : DEBUG : performing inference on a chunk of 2 documents
+2019-11-19 11:11:02,132 : DEBUG : 2/2 documents converged within 40 iterations
+2019-11-19 11:11:02,132 : INFO : optimized alpha [0.06199022, 0.041637, 0.04163667, 0.14541845, 0.06257906, 0.09577397, 0.06350821, 0.13513924, 0.041636553, 0.041636642]
+2019-11-19 11:11:02,132 : DEBUG : updating topics
+2019-11-19 11:11:02,133 : INFO : topic #2 (0.042): 0.013*"country" + 0.013*"esg" + 0.013*"opportunity" + 0.013*"plastic" + 0.013*"environmental" + 0.013*"governance" + 0.013*"social" + 0.013*"investment" + 0.013*"approach" + 0.013*"company"
+2019-11-19 11:11:02,133 : INFO : topic #8 (0.042): 0.013*"country" + 0.013*"opportunity" + 0.013*"esg" + 0.013*"approach" + 0.013*"company" + 0.013*"environmental" + 0.013*"plastic" + 0.013*"high" + 0.013*"issue" + 0.013*"investment"
+2019-11-19 11:11:02,133 : INFO : topic #5 (0.096): 0.041*"opportunity" + 0.036*"plastic" + 0.033*"company" + 0.025*"agenda" + 0.023*"issue" + 0.022*"esg" + 0.021*"topical" + 0.021*"address" + 0.021*"corporate" + 0.021*"create"
+2019-11-19 11:11:02,133 : INFO : topic #7 (0.135): 0.051*"issue" + 0.048*"company" + 0.047*"plastic" + 0.045*"opportunity" + 0.028*"evaluate" + 0.027*"consumption" + 0.027*"assess" + 0.027*"sustainability" + 0.026*"differentiate" + 0.026*"believe"
+2019-11-19 11:11:02,133 : INFO : topic #3 (0.145): 0.057*"country" + 0.044*"esg" + 0.044*"approach" + 0.030*"factor" + 0.029*"develop" + 0.029*"investment" + 0.016*"good" + 0.016*"pool" + 0.016*"yielding" + 0.016*"broadly"
+2019-11-19 11:11:02,133 : INFO : topic diff=0.270178, rho=0.500000
+2019-11-19 11:11:02,134 : DEBUG : bound: at document #0
+2019-11-19 11:11:02,135 : INFO : -5.438 per-word bound, 43.4 perplexity estimate based on a held-out corpus of 2 documents with 97 words
+2019-11-19 11:11:02,135 : INFO : PROGRESS: pass 3, at document #2/2
+2019-11-19 11:11:02,135 : DEBUG : performing inference on a chunk of 2 documents
+2019-11-19 11:11:02,135 : DEBUG : 2/2 documents converged within 40 iterations
+2019-11-19 11:11:02,136 : INFO : optimized alpha [0.05288035, 0.037514433, 0.03751417, 0.14871524, 0.05329628, 0.0741889, 0.05394934, 0.1376467, 0.037514076, 0.037514146]
+2019-11-19 11:11:02,136 : DEBUG : updating topics
+2019-11-19 11:11:02,136 : INFO : topic #9 (0.038): 0.013*"opportunity" + 0.013*"esg" + 0.013*"high" + 0.013*"plastic" + 0.013*"environmental" + 0.013*"country" + 0.013*"company" + 0.013*"issue" + 0.013*"approach" + 0.013*"topical"
+2019-11-19 11:11:02,136 : INFO : topic #8 (0.038): 0.013*"opportunity" + 0.013*"country" + 0.013*"esg" + 0.013*"approach" + 0.013*"company" + 0.013*"environmental" + 0.013*"plastic" + 0.013*"issue" + 0.013*"high" + 0.013*"investment"
+2019-11-19 11:11:02,136 : INFO : topic #5 (0.074): 0.032*"opportunity" + 0.029*"plastic" + 0.027*"company" + 0.021*"agenda" + 0.020*"issue" + 0.019*"esg" + 0.019*"topical" + 0.018*"address" + 0.018*"corporate" + 0.018*"create"
+2019-11-19 11:11:02,137 : INFO : topic #7 (0.138): 0.051*"issue" + 0.049*"company" + 0.048*"plastic" + 0.047*"opportunity" + 0.027*"evaluate" + 0.027*"consumption" + 0.027*"assess" + 0.027*"sustainability" + 0.026*"differentiate" + 0.026*"believe"
+2019-11-19 11:11:02,137 : INFO : topic #3 (0.149): 0.058*"country" + 0.044*"esg" + 0.044*"approach" + 0.030*"factor" + 0.029*"develop" + 0.029*"investment" + 0.016*"good" + 0.016*"pool" + 0.016*"yielding" + 0.016*"broadly"
+2019-11-19 11:11:02,137 : INFO : topic diff=0.176660, rho=0.447214
+2019-11-19 11:11:02,137 : DEBUG : bound: at document #0
+2019-11-19 11:11:02,138 : INFO : -5.377 per-word bound, 41.6 perplexity estimate based on a held-out corpus of 2 documents with 97 words
+2019-11-19 11:11:02,138 : INFO : PROGRESS: pass 4, at document #2/2
+2019-11-19 11:11:02,138 : DEBUG : performing inference on a chunk of 2 documents
+2019-11-19 11:11:02,139 : DEBUG : 2/2 documents converged within 40 iterations
+2019-11-19 11:11:02,139 : INFO : optimized alpha [0.04668419, 0.03438959, 0.03438937, 0.15012766, 0.047002666, 0.062040165, 0.047501214, 0.13860187, 0.03438929, 0.03438935]
+2019-11-19 11:11:02,139 : DEBUG : updating topics
+2019-11-19 11:11:02,140 : INFO : topic #8 (0.034): 0.013*"opportunity" + 0.013*"country" + 0.013*"esg" + 0.013*"approach" + 0.013*"company" + 0.013*"environmental" + 0.013*"plastic" + 0.013*"issue" + 0.013*"high" + 0.013*"investment"
+2019-11-19 11:11:02,140 : INFO : topic #2 (0.034): 0.013*"country" + 0.013*"esg" + 0.013*"plastic" + 0.013*"opportunity" + 0.013*"environmental" + 0.013*"governance" + 0.013*"approach" + 0.013*"social" + 0.013*"investment" + 0.013*"company"
+2019-11-19 11:11:02,140 : INFO : topic #5 (0.062): 0.026*"opportunity" + 0.024*"plastic" + 0.022*"company" + 0.018*"agenda" + 0.017*"issue" + 0.017*"esg" + 0.017*"topical" + 0.017*"address" + 0.017*"corporate" + 0.016*"create"
+2019-11-19 11:11:02,140 : INFO : topic #7 (0.139): 0.051*"issue" + 0.050*"company" + 0.049*"plastic" + 0.049*"opportunity" + 0.027*"evaluate" + 0.027*"consumption" + 0.027*"assess" + 0.027*"sustainability" + 0.026*"differentiate" + 0.026*"believe"
+2019-11-19 11:11:02,140 : INFO : topic #3 (0.150): 0.058*"country" + 0.044*"esg" + 0.044*"approach" + 0.030*"factor" + 0.030*"develop" + 0.030*"investment" + 0.016*"good" + 0.016*"pool" + 0.016*"yielding" + 0.016*"broadly"
+2019-11-19 11:11:02,140 : INFO : topic diff=0.118859, rho=0.408248
+2019-11-19 11:11:02,141 : DEBUG : bound: at document #0
+2019-11-19 11:11:02,142 : INFO : -5.349 per-word bound, 40.8 perplexity estimate based on a held-out corpus of 2 documents with 97 words
+2019-11-19 11:11:02,142 : INFO : PROGRESS: pass 5, at document #2/2
+2019-11-19 11:11:02,142 : DEBUG : performing inference on a chunk of 2 documents
+2019-11-19 11:11:02,142 : DEBUG : 2/2 documents converged within 40 iterations
+2019-11-19 11:11:02,143 : INFO : optimized alpha [0.04212176, 0.031910107, 0.031909917, 0.15031052, 0.042377982, 0.054002233, 0.042778235, 0.13856408, 0.03190985, 0.0319099]
+2019-11-19 11:11:02,143 : DEBUG : updating topics
+2019-11-19 11:11:02,143 : INFO : topic #2 (0.032): 0.013*"country" + 0.013*"esg" + 0.013*"plastic" + 0.013*"opportunity" + 0.013*"environmental" + 0.013*"governance" + 0.013*"high" + 0.013*"consumption" + 0.013*"social" + 0.013*"investment"
+2019-11-19 11:11:02,143 : INFO : topic #1 (0.032): 0.013*"opportunity" + 0.013*"plastic" + 0.013*"environmental" + 0.013*"company" + 0.013*"country" + 0.013*"issue" + 0.013*"esg" + 0.013*"social" + 0.013*"high" + 0.013*"approach"
+2019-11-19 11:11:02,143 : INFO : topic #5 (0.054): 0.021*"opportunity" + 0.020*"plastic" + 0.019*"company" + 0.017*"agenda" + 0.016*"issue" + 0.016*"esg" + 0.015*"topical" + 0.015*"address" + 0.015*"corporate" + 0.015*"create"
+2019-11-19 11:11:02,143 : INFO : topic #7 (0.139): 0.050*"issue" + 0.050*"company" + 0.050*"plastic" + 0.049*"opportunity" + 0.027*"evaluate" + 0.027*"consumption" + 0.026*"assess" + 0.026*"sustainability" + 0.026*"differentiate" + 0.026*"believe"
+2019-11-19 11:11:02,143 : INFO : topic #3 (0.150): 0.058*"country" + 0.044*"esg" + 0.044*"approach" + 0.030*"factor" + 0.030*"develop" + 0.030*"investment" + 0.016*"good" + 0.016*"pool" + 0.016*"yielding" + 0.016*"broadly"
+2019-11-19 11:11:02,144 : INFO : topic diff=0.080336, rho=0.377964
+2019-11-19 11:11:02,144 : DEBUG : bound: at document #0
+2019-11-19 11:11:02,145 : INFO : -5.337 per-word bound, 40.4 perplexity estimate based on a held-out corpus of 2 documents with 97 words
+2019-11-19 11:11:02,145 : INFO : PROGRESS: pass 6, at document #2/2
+2019-11-19 11:11:02,145 : DEBUG : performing inference on a chunk of 2 documents
+2019-11-19 11:11:02,146 : DEBUG : 2/2 documents converged within 40 iterations
+2019-11-19 11:11:02,146 : INFO : optimized alpha [0.038584456, 0.029877685, 0.02987752, 0.14969525, 0.038797628, 0.048197944, 0.039130118, 0.13789204, 0.029877461, 0.029877506]
+2019-11-19 11:11:02,146 : DEBUG : updating topics
+2019-11-19 11:11:02,146 : INFO : topic #8 (0.030): 0.013*"country" + 0.013*"opportunity" + 0.013*"esg" + 0.013*"approach" + 0.013*"environmental" + 0.013*"plastic" + 0.013*"company" + 0.013*"high" + 0.013*"issue" + 0.013*"agenda"
+2019-11-19 11:11:02,146 : INFO : topic #1 (0.030): 0.013*"opportunity" + 0.013*"plastic" + 0.013*"environmental" + 0.013*"company" + 0.013*"social" + 0.013*"high" + 0.013*"esg" + 0.013*"issue" + 0.013*"country" + 0.013*"approach"
+2019-11-19 11:11:02,147 : INFO : topic #5 (0.048): 0.019*"opportunity" + 0.018*"plastic" + 0.017*"company" + 0.015*"agenda" + 0.015*"issue" + 0.015*"esg" + 0.015*"topical" + 0.015*"address" + 0.014*"corporate" + 0.014*"create"
+2019-11-19 11:11:02,147 : INFO : topic #7 (0.138): 0.050*"issue" + 0.050*"company" + 0.050*"plastic" + 0.050*"opportunity" + 0.026*"evaluate" + 0.026*"consumption" + 0.026*"assess" + 0.026*"sustainability" + 0.026*"differentiate" + 0.026*"believe"
+2019-11-19 11:11:02,147 : INFO : topic #3 (0.150): 0.058*"country" + 0.044*"esg" + 0.044*"approach" + 0.030*"factor" + 0.030*"develop" + 0.030*"investment" + 0.016*"good" + 0.016*"pool" + 0.016*"yielding" + 0.016*"broadly"
+2019-11-19 11:11:02,147 : INFO : topic diff=0.054330, rho=0.353553
+2019-11-19 11:11:02,147 : DEBUG : bound: at document #0
+2019-11-19 11:11:02,148 : INFO : -5.331 per-word bound, 40.2 perplexity estimate based on a held-out corpus of 2 documents with 97 words
+2019-11-19 11:11:02,149 : INFO : PROGRESS: pass 7, at document #2/2
+2019-11-19 11:11:02,149 : DEBUG : performing inference on a chunk of 2 documents
+2019-11-19 11:11:02,149 : DEBUG : 2/2 documents converged within 40 iterations
+2019-11-19 11:11:02,149 : INFO : optimized alpha [0.035740174, 0.028170671, 0.028170526, 0.14856677, 0.035921905, 0.0437653, 0.036205005, 0.13681799, 0.028170474, 0.028170513]
+2019-11-19 11:11:02,150 : DEBUG : updating topics
+2019-11-19 11:11:02,150 : INFO : topic #1 (0.028): 0.013*"plastic" + 0.013*"opportunity" + 0.013*"environmental" + 0.013*"company" + 0.013*"high" + 0.013*"esg" + 0.013*"issue" + 0.013*"governance" + 0.013*"social" + 0.013*"country"
+2019-11-19 11:11:02,150 : INFO : topic #2 (0.028): 0.013*"plastic" + 0.013*"country" + 0.013*"opportunity" + 0.013*"esg" + 0.013*"governance" + 0.013*"environmental" + 0.013*"investment" + 0.013*"operating" + 0.013*"social" + 0.013*"topical"
+2019-11-19 11:11:02,150 : INFO : topic #5 (0.044): 0.017*"opportunity" + 0.016*"plastic" + 0.016*"company" + 0.015*"agenda" + 0.014*"issue" + 0.014*"esg" + 0.014*"topical" + 0.014*"address" + 0.014*"corporate" + 0.014*"create"
+2019-11-19 11:11:02,150 : INFO : topic #7 (0.137): 0.050*"issue" + 0.050*"company" + 0.050*"plastic" + 0.050*"opportunity" + 0.026*"evaluate" + 0.026*"consumption" + 0.026*"assess" + 0.026*"sustainability" + 0.026*"differentiate" + 0.026*"believe"
+2019-11-19 11:11:02,150 : INFO : topic #3 (0.149): 0.058*"country" + 0.044*"esg" + 0.044*"approach" + 0.030*"factor" + 0.030*"develop" + 0.030*"investment" + 0.016*"good" + 0.016*"pool" + 0.016*"yielding" + 0.016*"broadly"
+2019-11-19 11:11:02,150 : INFO : topic diff=0.036827, rho=0.333333
+2019-11-19 11:11:02,151 : DEBUG : bound: at document #0
+2019-11-19 11:11:02,152 : INFO : -5.327 per-word bound, 40.2 perplexity estimate based on a held-out corpus of 2 documents with 97 words
+2019-11-19 11:11:02,152 : INFO : PROGRESS: pass 8, at document #2/2
+2019-11-19 11:11:02,152 : DEBUG : performing inference on a chunk of 2 documents
+2019-11-19 11:11:02,153 : DEBUG : 2/2 documents converged within 40 iterations
+2019-11-19 11:11:02,153 : INFO : optimized alpha [0.033390153, 0.026709586, 0.026709456, 0.14711456, 0.03354797, 0.04024483, 0.03379358, 0.1354942, 0.02670941, 0.026709445]
+2019-11-19 11:11:02,153 : DEBUG : updating topics
+2019-11-19 11:11:02,153 : INFO : topic #2 (0.027): 0.013*"esg" + 0.013*"country" + 0.013*"opportunity" + 0.013*"governance" + 0.013*"environmental" + 0.013*"plastic" + 0.013*"holding" + 0.013*"develop" + 0.013*"issue" + 0.013*"social"
+2019-11-19 11:11:02,153 : INFO : topic #1 (0.027): 0.013*"opportunity" + 0.013*"plastic" + 0.013*"social" + 0.013*"issue" + 0.013*"esg" + 0.013*"environmental" + 0.013*"high" + 0.013*"country" + 0.013*"company" + 0.013*"approach"
+2019-11-19 11:11:02,153 : INFO : topic #5 (0.040): 0.016*"opportunity" + 0.015*"plastic" + 0.015*"company" + 0.014*"agenda" + 0.014*"issue" + 0.014*"esg" + 0.014*"topical" + 0.014*"address" + 0.014*"corporate" + 0.014*"create"
+2019-11-19 11:11:02,154 : INFO : topic #7 (0.135): 0.050*"issue" + 0.050*"company" + 0.050*"plastic" + 0.050*"opportunity" + 0.026*"evaluate" + 0.026*"consumption" + 0.026*"assess" + 0.026*"sustainability" + 0.026*"differentiate" + 0.026*"believe"
+2019-11-19 11:11:02,154 : INFO : topic #3 (0.147): 0.058*"country" + 0.044*"esg" + 0.044*"approach" + 0.030*"factor" + 0.030*"develop" + 0.030*"investment" + 0.016*"good" + 0.016*"pool" + 0.016*"yielding" + 0.016*"broadly"
+2019-11-19 11:11:02,154 : INFO : topic diff=0.025098, rho=0.316228
+2019-11-19 11:11:02,154 : DEBUG : bound: at document #0
+2019-11-19 11:11:02,155 : INFO : -5.325 per-word bound, 40.1 perplexity estimate based on a held-out corpus of 2 documents with 97 words
+2019-11-19 11:11:02,155 : INFO : PROGRESS: pass 9, at document #2/2
+2019-11-19 11:11:02,155 : DEBUG : performing inference on a chunk of 2 documents
+2019-11-19 11:11:02,156 : DEBUG : 2/2 documents converged within 40 iterations
+2019-11-19 11:11:02,156 : INFO : optimized alpha [0.031407174, 0.025439933, 0.025439817, 0.14546542, 0.03154623, 0.03736631, 0.031762477, 0.13402148, 0.025439775, 0.025439806]
+2019-11-19 11:11:02,156 : DEBUG : updating topics
+2019-11-19 11:11:02,157 : INFO : topic #8 (0.025): 0.013*"opportunity" + 0.013*"country" + 0.013*"esg" + 0.013*"agenda" + 0.013*"plastic" + 0.013*"issue" + 0.013*"high" + 0.013*"environmental" + 0.013*"investment" + 0.013*"approach"
+2019-11-19 11:11:02,157 : INFO : topic #1 (0.025): 0.013*"plastic" + 0.013*"opportunity" + 0.013*"develop" + 0.013*"environmental" + 0.013*"country" + 0.013*"issue" + 0.013*"approach" + 0.013*"high" + 0.013*"governance" + 0.013*"esg"
+2019-11-19 11:11:02,157 : INFO : topic #5 (0.037): 0.015*"opportunity" + 0.014*"plastic" + 0.014*"company" + 0.014*"agenda" + 0.014*"issue" + 0.013*"esg" + 0.013*"topical" + 0.013*"address" + 0.013*"corporate" + 0.013*"create"
+2019-11-19 11:11:02,157 : INFO : topic #7 (0.134): 0.050*"issue" + 0.050*"company" + 0.050*"plastic" + 0.050*"opportunity" + 0.026*"evaluate" + 0.026*"consumption" + 0.026*"assess" + 0.026*"sustainability" + 0.026*"differentiate" + 0.026*"believe"
+2019-11-19 11:11:02,157 : INFO : topic #3 (0.145): 0.058*"country" + 0.044*"esg" + 0.044*"approach" + 0.030*"factor" + 0.030*"develop" + 0.030*"investment" + 0.016*"good" + 0.016*"pool" + 0.016*"yielding" + 0.016*"broadly"
+2019-11-19 11:11:02,157 : INFO : topic diff=0.017243, rho=0.301511
+2019-11-19 11:11:02,158 : DEBUG : bound: at document #0
+2019-11-19 11:11:02,159 : INFO : -5.324 per-word bound, 40.1 perplexity estimate based on a held-out corpus of 2 documents with 97 words
+2019-11-19 11:11:02,159 : INFO : PROGRESS: pass 10, at document #2/2
+2019-11-19 11:11:02,159 : DEBUG : performing inference on a chunk of 2 documents
+2019-11-19 11:11:02,159 : DEBUG : 2/2 documents converged within 40 iterations
+2019-11-19 11:11:02,159 : INFO : optimized alpha [0.029705526, 0.024322886, 0.024322782, 0.1437049, 0.029829506, 0.03495917, 0.03002217, 0.1324672, 0.02432274, 0.02432277]
+2019-11-19 11:11:02,160 : DEBUG : updating topics
+2019-11-19 11:11:02,160 : INFO : topic #8 (0.024): 0.013*"approach" + 0.013*"opportunity" + 0.013*"esg" + 0.013*"country" + 0.013*"plastic" + 0.013*"return" + 0.013*"review" + 0.013*"risk" + 0.013*"social" + 0.013*"topical"
+2019-11-19 11:11:02,160 : INFO : topic #9 (0.024): 0.013*"environmental" + 0.013*"plastic" + 0.013*"high" + 0.013*"esg" + 0.013*"opportunity" + 0.013*"risk" + 0.013*"review" + 0.013*"way" + 0.013*"sustainability" + 0.013*"return"
+2019-11-19 11:11:02,160 : INFO : topic #5 (0.035): 0.014*"opportunity" + 0.014*"plastic" + 0.014*"company" + 0.013*"agenda" + 0.013*"issue" + 0.013*"esg" + 0.013*"topical" + 0.013*"address" + 0.013*"corporate" + 0.013*"create"
+2019-11-19 11:11:02,160 : INFO : topic #7 (0.132): 0.050*"issue" + 0.050*"company" + 0.050*"plastic" + 0.050*"opportunity" + 0.026*"evaluate" + 0.026*"consumption" + 0.026*"assess" + 0.026*"sustainability" + 0.026*"differentiate" + 0.026*"believe"
+2019-11-19 11:11:02,160 : INFO : topic #3 (0.144): 0.058*"country" + 0.044*"esg" + 0.044*"approach" + 0.030*"factor" + 0.030*"develop" + 0.030*"investment" + 0.016*"good" + 0.016*"pool" + 0.016*"yielding" + 0.016*"broadly"
+2019-11-19 11:11:02,160 : INFO : topic diff=0.011965, rho=0.288675
+2019-11-19 11:11:02,161 : DEBUG : bound: at document #0
+2019-11-19 11:11:02,162 : INFO : -5.323 per-word bound, 40.0 perplexity estimate based on a held-out corpus of 2 documents with 97 words
+2019-11-19 11:11:02,162 : INFO : PROGRESS: pass 11, at document #2/2
+2019-11-19 11:11:02,162 : DEBUG : performing inference on a chunk of 2 documents
+2019-11-19 11:11:02,163 : DEBUG : 2/2 documents converged within 40 iterations
+2019-11-19 11:11:02,163 : INFO : optimized alpha [0.028225085, 0.023329902, 0.023329806, 0.14189051, 0.028336698, 0.03290984, 0.028510043, 0.13087647, 0.02332977, 0.023329796]
+2019-11-19 11:11:02,163 : DEBUG : updating topics
+2019-11-19 11:11:02,163 : INFO : topic #9 (0.023): 0.013*"issue" + 0.013*"operating" + 0.013*"governance" + 0.013*"holding" + 0.013*"factor" + 0.013*"esg" + 0.013*"investment" + 0.013*"country" + 0.013*"plastic" + 0.013*"environmental"
+2019-11-19 11:11:02,163 : INFO : topic #1 (0.023): 0.013*"social" + 0.013*"topical" + 0.013*"issue" + 0.013*"material" + 0.013*"operating" + 0.013*"opportunity" + 0.013*"plastic" + 0.013*"high" + 0.013*"develop" + 0.013*"factor"
+2019-11-19 11:11:02,163 : INFO : topic #5 (0.033): 0.014*"opportunity" + 0.014*"plastic" + 0.014*"company" + 0.013*"agenda" + 0.013*"issue" + 0.013*"esg" + 0.013*"topical" + 0.013*"address" + 0.013*"corporate" + 0.013*"create"
+2019-11-19 11:11:02,164 : INFO : topic #7 (0.131): 0.050*"issue" + 0.050*"company" + 0.050*"plastic" + 0.050*"opportunity" + 0.026*"evaluate" + 0.026*"consumption" + 0.026*"assess" + 0.026*"sustainability" + 0.026*"differentiate" + 0.026*"believe"
+2019-11-19 11:11:02,164 : INFO : topic #3 (0.142): 0.058*"country" + 0.044*"esg" + 0.044*"approach" + 0.030*"factor" + 0.030*"develop" + 0.030*"investment" + 0.016*"good" + 0.016*"pool" + 0.016*"yielding" + 0.016*"broadly"
+2019-11-19 11:11:02,164 : INFO : topic diff=0.008393, rho=0.277350
+2019-11-19 11:11:02,164 : DEBUG : bound: at document #0
+2019-11-19 11:11:02,165 : INFO : -5.322 per-word bound, 40.0 perplexity estimate based on a held-out corpus of 2 documents with 97 words
+2019-11-19 11:11:02,165 : INFO : PROGRESS: pass 12, at document #2/2
+2019-11-19 11:11:02,165 : DEBUG : performing inference on a chunk of 2 documents
+2019-11-19 11:11:02,166 : DEBUG : 2/2 documents converged within 40 iterations
+2019-11-19 11:11:02,166 : INFO : optimized alpha [0.026922263, 0.022439452, 0.022439362, 0.14006117, 0.027023567, 0.03113943, 0.027180819, 0.12927954, 0.022439329, 0.022439353]
+2019-11-19 11:11:02,166 : DEBUG : updating topics
+2019-11-19 11:11:02,166 : INFO : topic #8 (0.022): 0.013*"issue" + 0.013*"company" + 0.013*"high" + 0.013*"approach" + 0.013*"investment" + 0.013*"esg" + 0.013*"environmental" + 0.013*"country" + 0.013*"plastic" + 0.013*"agenda"
+2019-11-19 11:11:02,167 : INFO : topic #1 (0.022): 0.013*"investment" + 0.013*"issue" + 0.013*"evaluate" + 0.013*"governance" + 0.013*"high" + 0.013*"environmental" + 0.013*"approach" + 0.013*"plastic" + 0.013*"esg" + 0.013*"country"
+2019-11-19 11:11:02,167 : INFO : topic #5 (0.031): 0.014*"opportunity" + 0.013*"plastic" + 0.013*"company" + 0.013*"agenda" + 0.013*"issue" + 0.013*"esg" + 0.013*"topical" + 0.013*"address" + 0.013*"corporate" + 0.013*"create"
+2019-11-19 11:11:02,167 : INFO : topic #7 (0.129): 0.050*"issue" + 0.050*"company" + 0.050*"plastic" + 0.050*"opportunity" + 0.026*"evaluate" + 0.026*"consumption" + 0.026*"assess" + 0.026*"sustainability" + 0.026*"differentiate" + 0.026*"believe"
+2019-11-19 11:11:02,167 : INFO : topic #3 (0.140): 0.058*"country" + 0.044*"esg" + 0.044*"approach" + 0.030*"factor" + 0.030*"develop" + 0.030*"investment" + 0.016*"good" + 0.016*"pool" + 0.016*"yielding" + 0.016*"broadly"
+2019-11-19 11:11:02,167 : INFO : topic diff=0.005954, rho=0.267261
+2019-11-19 11:11:02,168 : DEBUG : bound: at document #0
+2019-11-19 11:11:02,169 : INFO : -5.321 per-word bound, 40.0 perplexity estimate based on a held-out corpus of 2 documents with 97 words
+2019-11-19 11:11:02,169 : INFO : PROGRESS: pass 13, at document #2/2
+2019-11-19 11:11:02,169 : DEBUG : performing inference on a chunk of 2 documents
+2019-11-19 11:11:02,169 : DEBUG : 2/2 documents converged within 40 iterations
+2019-11-19 11:11:02,170 : INFO : optimized alpha [0.025764596, 0.021634936, 0.021634853, 0.13824297, 0.02585718, 0.029591262, 0.026000833, 0.12769663, 0.02163482, 0.021634843]
+2019-11-19 11:11:02,170 : DEBUG : updating topics
+2019-11-19 11:11:02,170 : INFO : topic #1 (0.022): 0.013*"esg" + 0.013*"environmental" + 0.013*"plastic" + 0.013*"opportunity" + 0.013*"country" + 0.013*"issue" + 0.013*"approach" + 0.013*"high" + 0.013*"social" + 0.013*"company"
+2019-11-19 11:11:02,170 : INFO : topic #8 (0.022): 0.013*"environmental" + 0.013*"opportunity" + 0.013*"country" + 0.013*"approach" + 0.013*"esg" + 0.013*"plastic" + 0.013*"company" + 0.013*"low" + 0.013*"geographically" + 0.013*"investor"
+2019-11-19 11:11:02,170 : INFO : topic #5 (0.030): 0.013*"opportunity" + 0.013*"plastic" + 0.013*"company" + 0.013*"agenda" + 0.013*"issue" + 0.013*"esg" + 0.013*"topical" + 0.013*"address" + 0.013*"corporate" + 0.013*"create"
+2019-11-19 11:11:02,170 : INFO : topic #7 (0.128): 0.050*"issue" + 0.050*"company" + 0.050*"plastic" + 0.050*"opportunity" + 0.026*"evaluate" + 0.026*"consumption" + 0.026*"assess" + 0.026*"sustainability" + 0.026*"differentiate" + 0.026*"believe"
+2019-11-19 11:11:02,170 : INFO : topic #3 (0.138): 0.058*"country" + 0.044*"esg" + 0.044*"approach" + 0.030*"factor" + 0.030*"develop" + 0.030*"investment" + 0.016*"good" + 0.016*"pool" + 0.016*"yielding" + 0.016*"broadly"
+2019-11-19 11:11:02,170 : INFO : topic diff=0.004272, rho=0.258199
+2019-11-19 11:11:02,171 : DEBUG : bound: at document #0
+2019-11-19 11:11:02,172 : INFO : -5.320 per-word bound, 40.0 perplexity estimate based on a held-out corpus of 2 documents with 97 words
+2019-11-19 11:11:02,172 : INFO : PROGRESS: pass 14, at document #2/2
+2019-11-19 11:11:02,172 : DEBUG : performing inference on a chunk of 2 documents
+2019-11-19 11:11:02,173 : DEBUG : 2/2 documents converged within 40 iterations
+2019-11-19 11:11:02,173 : INFO : optimized alpha [0.024727331, 0.020903315, 0.020903237, 0.1364532, 0.024812456, 0.02822345, 0.02494448, 0.12614103, 0.020903207, 0.020903228]
+2019-11-19 11:11:02,173 : DEBUG : updating topics
+2019-11-19 11:11:02,173 : INFO : topic #2 (0.021): 0.013*"country" + 0.013*"esg" + 0.013*"improvement" + 0.013*"investor" + 0.013*"investment" + 0.013*"invest" + 0.013*"instead" + 0.013*"incorporate" + 0.013*"income" + 0.013*"low"
+2019-11-19 11:11:02,173 : INFO : topic #1 (0.021): 0.013*"opportunity" + 0.013*"plastic" + 0.013*"improvement" + 0.013*"highly" + 0.013*"investment" + 0.013*"invest" + 0.013*"instead" + 0.013*"incorporate" + 0.013*"income" + 0.013*"low"
+2019-11-19 11:11:02,174 : INFO : topic #5 (0.028): 0.013*"opportunity" + 0.013*"plastic" + 0.013*"company" + 0.013*"agenda" + 0.013*"issue" + 0.013*"esg" + 0.013*"topical" + 0.013*"address" + 0.013*"corporate" + 0.013*"create"
+2019-11-19 11:11:02,174 : INFO : topic #7 (0.126): 0.050*"issue" + 0.050*"company" + 0.050*"plastic" + 0.050*"opportunity" + 0.026*"evaluate" + 0.026*"consumption" + 0.026*"assess" + 0.026*"sustainability" + 0.026*"differentiate" + 0.026*"believe"
+2019-11-19 11:11:02,174 : INFO : topic #3 (0.136): 0.058*"country" + 0.044*"esg" + 0.044*"approach" + 0.030*"factor" + 0.030*"develop" + 0.030*"investment" + 0.016*"good" + 0.016*"pool" + 0.016*"yielding" + 0.016*"broadly"
+2019-11-19 11:11:02,174 : INFO : topic diff=0.003098, rho=0.250000
+2019-11-19 11:11:02,174 : DEBUG : bound: at document #0
+2019-11-19 11:11:02,176 : INFO : -5.320 per-word bound, 39.9 perplexity estimate based on a held-out corpus of 2 documents with 97 words
+2019-11-19 11:11:02,176 : INFO : PROGRESS: pass 15, at document #2/2
+2019-11-19 11:11:02,176 : DEBUG : performing inference on a chunk of 2 documents
+2019-11-19 11:11:02,176 : DEBUG : 2/2 documents converged within 40 iterations
+2019-11-19 11:11:02,176 : INFO : optimized alpha [0.023791237, 0.020234179, 0.020234106, 0.13470306, 0.02386991, 0.027004289, 0.023991888, 0.12462124, 0.020234078, 0.020234097]
+2019-11-19 11:11:02,177 : DEBUG : updating topics
+2019-11-19 11:11:02,177 : INFO : topic #8 (0.020): 0.013*"highly" + 0.013*"great" + 0.013*"investment" + 0.013*"invest" + 0.013*"instead" + 0.013*"incorporate" + 0.013*"income" + 0.013*"improvement" + 0.013*"low" + 0.013*"group"
+2019-11-19 11:11:02,177 : INFO : topic #9 (0.020): 0.013*"highly" + 0.013*"great" + 0.013*"investment" + 0.013*"invest" + 0.013*"instead" + 0.013*"incorporate" + 0.013*"income" + 0.013*"improvement" + 0.013*"low" + 0.013*"group"
+2019-11-19 11:11:02,177 : INFO : topic #5 (0.027): 0.013*"opportunity" + 0.013*"plastic" + 0.013*"company" + 0.013*"agenda" + 0.013*"issue" + 0.013*"esg" + 0.013*"topical" + 0.013*"address" + 0.013*"corporate" + 0.013*"create"
+2019-11-19 11:11:02,177 : INFO : topic #7 (0.125): 0.050*"issue" + 0.050*"company" + 0.050*"plastic" + 0.050*"opportunity" + 0.026*"evaluate" + 0.026*"consumption" + 0.026*"assess" + 0.026*"sustainability" + 0.026*"differentiate" + 0.026*"believe"
+2019-11-19 11:11:02,177 : INFO : topic #3 (0.135): 0.058*"country" + 0.044*"esg" + 0.044*"approach" + 0.030*"factor" + 0.030*"develop" + 0.030*"investment" + 0.016*"good" + 0.016*"pool" + 0.016*"yielding" + 0.016*"broadly"
+2019-11-19 11:11:02,177 : INFO : topic diff=0.002270, rho=0.242536
+2019-11-19 11:11:02,178 : DEBUG : bound: at document #0
+2019-11-19 11:11:02,179 : INFO : -5.319 per-word bound, 39.9 perplexity estimate based on a held-out corpus of 2 documents with 97 words
+2019-11-19 11:11:02,179 : INFO : PROGRESS: pass 16, at document #2/2
+2019-11-19 11:11:02,179 : DEBUG : performing inference on a chunk of 2 documents
+2019-11-19 11:11:02,180 : DEBUG : 2/2 documents converged within 40 iterations
+2019-11-19 11:11:02,180 : INFO : optimized alpha [0.022941103, 0.019619102, 0.019619033, 0.13299958, 0.023014149, 0.025909305, 0.023127368, 0.12314254, 0.019619007, 0.019619023]
+2019-11-19 11:11:02,180 : DEBUG : updating topics
+2019-11-19 11:11:02,180 : INFO : topic #1 (0.020): 0.013*"highly" + 0.013*"great" + 0.013*"investment" + 0.013*"invest" + 0.013*"instead" + 0.013*"incorporate" + 0.013*"income" + 0.013*"improvement" + 0.013*"low" + 0.013*"group"
+2019-11-19 11:11:02,180 : INFO : topic #9 (0.020): 0.013*"highly" + 0.013*"great" + 0.013*"investment" + 0.013*"invest" + 0.013*"instead" + 0.013*"incorporate" + 0.013*"income" + 0.013*"improvement" + 0.013*"low" + 0.013*"group"
+2019-11-19 11:11:02,181 : INFO : topic #5 (0.026): 0.013*"opportunity" + 0.013*"plastic" + 0.013*"company" + 0.013*"agenda" + 0.013*"issue" + 0.013*"esg" + 0.013*"topical" + 0.013*"address" + 0.013*"corporate" + 0.013*"create"
+2019-11-19 11:11:02,181 : INFO : topic #7 (0.123): 0.050*"issue" + 0.050*"company" + 0.050*"plastic" + 0.050*"opportunity" + 0.026*"evaluate" + 0.026*"consumption" + 0.026*"assess" + 0.026*"sustainability" + 0.026*"differentiate" + 0.026*"believe"
+2019-11-19 11:11:02,181 : INFO : topic #3 (0.133): 0.058*"country" + 0.044*"esg" + 0.044*"approach" + 0.030*"factor" + 0.030*"develop" + 0.030*"investment" + 0.016*"good" + 0.016*"pool" + 0.016*"yielding" + 0.016*"broadly"
+2019-11-19 11:11:02,181 : INFO : topic diff=0.001680, rho=0.235702
+2019-11-19 11:11:02,181 : DEBUG : bound: at document #0
+2019-11-19 11:11:02,183 : INFO : -5.318 per-word bound, 39.9 perplexity estimate based on a held-out corpus of 2 documents with 97 words
+2019-11-19 11:11:02,183 : INFO : PROGRESS: pass 17, at document #2/2
+2019-11-19 11:11:02,183 : DEBUG : performing inference on a chunk of 2 documents
+2019-11-19 11:11:02,183 : DEBUG : 2/2 documents converged within 40 iterations
+2019-11-19 11:11:02,183 : INFO : optimized alpha [0.022164734, 0.019051172, 0.019051107, 0.13134684, 0.02223283, 0.024919264, 0.022338351, 0.12170789, 0.019051082, 0.0190511]
+2019-11-19 11:11:02,184 : DEBUG : updating topics
+2019-11-19 11:11:02,184 : INFO : topic #9 (0.019): 0.013*"highly" + 0.013*"great" + 0.013*"investment" + 0.013*"invest" + 0.013*"instead" + 0.013*"incorporate" + 0.013*"income" + 0.013*"improvement" + 0.013*"low" + 0.013*"group"
+2019-11-19 11:11:02,184 : INFO : topic #8 (0.019): 0.013*"highly" + 0.013*"great" + 0.013*"investment" + 0.013*"invest" + 0.013*"instead" + 0.013*"incorporate" + 0.013*"income" + 0.013*"improvement" + 0.013*"low" + 0.013*"group"
+2019-11-19 11:11:02,184 : INFO : topic #5 (0.025): 0.013*"opportunity" + 0.013*"plastic" + 0.013*"company" + 0.013*"agenda" + 0.013*"issue" + 0.013*"esg" + 0.013*"topical" + 0.013*"address" + 0.013*"corporate" + 0.013*"create"
+2019-11-19 11:11:02,184 : INFO : topic #7 (0.122): 0.050*"issue" + 0.050*"company" + 0.050*"plastic" + 0.050*"opportunity" + 0.026*"evaluate" + 0.026*"consumption" + 0.026*"assess" + 0.026*"sustainability" + 0.026*"differentiate" + 0.026*"believe"
+2019-11-19 11:11:02,184 : INFO : topic #3 (0.131): 0.058*"country" + 0.044*"esg" + 0.044*"approach" + 0.030*"factor" + 0.030*"develop" + 0.030*"investment" + 0.016*"good" + 0.016*"pool" + 0.016*"yielding" + 0.016*"broadly"
+2019-11-19 11:11:02,184 : INFO : topic diff=0.001254, rho=0.229416
+2019-11-19 11:11:02,185 : DEBUG : bound: at document #0
+2019-11-19 11:11:02,186 : INFO : -5.317 per-word bound, 39.9 perplexity estimate based on a held-out corpus of 2 documents with 97 words
+2019-11-19 11:11:02,186 : INFO : PROGRESS: pass 18, at document #2/2
+2019-11-19 11:11:02,186 : DEBUG : performing inference on a chunk of 2 documents
+2019-11-19 11:11:02,187 : DEBUG : 2/2 documents converged within 40 iterations
+2019-11-19 11:11:02,187 : INFO : optimized alpha [0.021452222, 0.018524671, 0.01852461, 0.12974846, 0.021515936, 0.024018833, 0.021614641, 0.12031887, 0.018524587, 0.018524602]
+2019-11-19 11:11:02,187 : DEBUG : updating topics
+2019-11-19 11:11:02,187 : INFO : topic #2 (0.019): 0.013*"highly" + 0.013*"great" + 0.013*"investment" + 0.013*"invest" + 0.013*"instead" + 0.013*"incorporate" + 0.013*"income" + 0.013*"improvement" + 0.013*"low" + 0.013*"group"
+2019-11-19 11:11:02,187 : INFO : topic #8 (0.019): 0.013*"highly" + 0.013*"great" + 0.013*"investment" + 0.013*"invest" + 0.013*"instead" + 0.013*"incorporate" + 0.013*"income" + 0.013*"improvement" + 0.013*"low" + 0.013*"group"
+2019-11-19 11:11:02,188 : INFO : topic #5 (0.024): 0.013*"opportunity" + 0.013*"plastic" + 0.013*"company" + 0.013*"agenda" + 0.013*"issue" + 0.013*"esg" + 0.013*"topical" + 0.013*"address" + 0.013*"corporate" + 0.013*"create"
+2019-11-19 11:11:02,188 : INFO : topic #7 (0.120): 0.050*"issue" + 0.050*"company" + 0.050*"plastic" + 0.050*"opportunity" + 0.026*"evaluate" + 0.026*"consumption" + 0.026*"assess" + 0.026*"sustainability" + 0.026*"differentiate" + 0.026*"believe"
+2019-11-19 11:11:02,188 : INFO : topic #3 (0.130): 0.058*"country" + 0.044*"esg" + 0.044*"approach" + 0.030*"factor" + 0.030*"develop" + 0.030*"investment" + 0.016*"good" + 0.016*"pool" + 0.016*"yielding" + 0.016*"broadly"
+2019-11-19 11:11:02,188 : INFO : topic diff=0.000945, rho=0.223607
+2019-11-19 11:11:02,188 : DEBUG : bound: at document #0
+2019-11-19 11:11:02,190 : INFO : -5.317 per-word bound, 39.9 perplexity estimate based on a held-out corpus of 2 documents with 97 words
+2019-11-19 11:11:02,190 : INFO : PROGRESS: pass 19, at document #2/2
+2019-11-19 11:11:02,190 : DEBUG : performing inference on a chunk of 2 documents
+2019-11-19 11:11:02,190 : DEBUG : 2/2 documents converged within 40 iterations
+2019-11-19 11:11:02,190 : INFO : optimized alpha [0.0207954, 0.018034797, 0.01803474, 0.1282017, 0.020855209, 0.02319559, 0.020947842, 0.11897543, 0.018034719, 0.018034732]
+2019-11-19 11:11:02,191 : DEBUG : updating topics
+2019-11-19 11:11:02,191 : INFO : topic #8 (0.018): 0.013*"highly" + 0.013*"great" + 0.013*"investment" + 0.013*"invest" + 0.013*"instead" + 0.013*"incorporate" + 0.013*"income" + 0.013*"improvement" + 0.013*"low" + 0.013*"group"
+2019-11-19 11:11:02,191 : INFO : topic #1 (0.018): 0.013*"highly" + 0.013*"great" + 0.013*"investment" + 0.013*"invest" + 0.013*"instead" + 0.013*"incorporate" + 0.013*"income" + 0.013*"improvement" + 0.013*"low" + 0.013*"group"
+2019-11-19 11:11:02,191 : INFO : topic #5 (0.023): 0.013*"opportunity" + 0.013*"plastic" + 0.013*"company" + 0.013*"agenda" + 0.013*"issue" + 0.013*"esg" + 0.013*"topical" + 0.013*"address" + 0.013*"corporate" + 0.013*"create"
+2019-11-19 11:11:02,191 : INFO : topic #7 (0.119): 0.050*"issue" + 0.050*"company" + 0.050*"plastic" + 0.050*"opportunity" + 0.026*"evaluate" + 0.026*"consumption" + 0.026*"assess" + 0.026*"sustainability" + 0.026*"differentiate" + 0.026*"believe"
+2019-11-19 11:11:02,191 : INFO : topic #3 (0.128): 0.058*"country" + 0.044*"esg" + 0.044*"approach" + 0.030*"factor" + 0.030*"develop" + 0.030*"investment" + 0.016*"good" + 0.016*"pool" + 0.016*"yielding" + 0.016*"consider"
+2019-11-19 11:11:02,192 : INFO : topic diff=0.000718, rho=0.218218
+2019-11-19 11:11:02,192 : INFO : saving LdaState object under model/lda_model_msim_test_2019-11-19_11-11-02.txt.state, separately None
+2019-11-19 11:11:02,192 : DEBUG : {'transport_params': None, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'wb', 'uri': 'model/lda_model_msim_test_2019-11-19_11-11-02.txt.state'}
+2019-11-19 11:11:02,193 : INFO : saved model/lda_model_msim_test_2019-11-19_11-11-02.txt.state
+2019-11-19 11:11:02,193 : DEBUG : {'transport_params': None, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'wb', 'uri': 'model/lda_model_msim_test_2019-11-19_11-11-02.txt.id2word'}
+2019-11-19 11:11:02,193 : INFO : saving LdaModel object under model/lda_model_msim_test_2019-11-19_11-11-02.txt, separately ['expElogbeta', 'sstats']
+2019-11-19 11:11:02,193 : INFO : storing np array 'expElogbeta' to model/lda_model_msim_test_2019-11-19_11-11-02.txt.expElogbeta.npy
+2019-11-19 11:11:02,194 : INFO : not storing attribute id2word
+2019-11-19 11:11:02,194 : INFO : not storing attribute state
+2019-11-19 11:11:02,194 : INFO : not storing attribute dispatcher
+2019-11-19 11:11:02,194 : DEBUG : {'transport_params': None, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'wb', 'uri': 'model/lda_model_msim_test_2019-11-19_11-11-02.txt'}
+2019-11-19 11:11:02,195 : INFO : saved model/lda_model_msim_test_2019-11-19_11-11-02.txt
+2019-11-19 11:11:02,195 : INFO : topic #0 (0.021): 0.013*"country" + 0.013*"approach" + 0.013*"esg"
+2019-11-19 11:11:02,195 : INFO : topic #1 (0.018): 0.013*"incorporate" + 0.013*"invest" + 0.013*"income"
+2019-11-19 11:11:02,195 : INFO : topic #2 (0.018): 0.013*"incorporate" + 0.013*"invest" + 0.013*"income"
+2019-11-19 11:11:02,195 : INFO : topic #3 (0.128): 0.058*"country" + 0.044*"esg" + 0.044*"approach"
+2019-11-19 11:11:02,196 : INFO : topic #4 (0.021): 0.013*"opportunity" + 0.013*"issue" + 0.013*"plastic"
+2019-11-19 11:11:02,196 : INFO : topic #5 (0.023): 0.013*"opportunity" + 0.013*"plastic" + 0.013*"company"
+2019-11-19 11:11:02,196 : INFO : topic #6 (0.021): 0.013*"country" + 0.013*"approach" + 0.013*"esg"
+2019-11-19 11:11:02,196 : INFO : topic #7 (0.119): 0.050*"issue" + 0.050*"company" + 0.050*"plastic"
+2019-11-19 11:11:02,196 : INFO : topic #8 (0.018): 0.013*"incorporate" + 0.013*"invest" + 0.013*"income"
+2019-11-19 11:11:02,196 : INFO : topic #9 (0.018): 0.013*"incorporate" + 0.013*"invest" + 0.013*"income"
+2019-11-19 11:11:02,196 : DEBUG : Setting topics to those of the model: LdaModel(num_terms=78, num_topics=10, decay=0.5, chunksize=200)

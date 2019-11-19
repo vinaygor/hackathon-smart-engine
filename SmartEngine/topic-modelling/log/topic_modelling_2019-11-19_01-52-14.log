@@ -1,0 +1,6 @@
+2019-11-19 01:52:15,103 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2019-11-19 01:52:15,104 : INFO : built Dictionary(78 unique tokens: ['address', 'agenda', 'assess', 'believe', 'benefit']...) from 2 documents (total 97 corpus positions)
+2019-11-19 01:52:15,104 : INFO : discarding 78 tokens: [('address', 1), ('agenda', 1), ('assess', 1), ('believe', 1), ('benefit', 1), ('capital', 1), ('company', 1), ('consumption', 1), ('corporate', 1), ('create', 1)]...
+2019-11-19 01:52:15,104 : INFO : keeping 0 tokens which were in no less than 10 and no more than 1 (=70.0%) documents
+2019-11-19 01:52:15,104 : DEBUG : rebuilding dictionary, shrinking gaps
+2019-11-19 01:52:15,104 : INFO : resulting dictionary: Dictionary(0 unique tokens: [])

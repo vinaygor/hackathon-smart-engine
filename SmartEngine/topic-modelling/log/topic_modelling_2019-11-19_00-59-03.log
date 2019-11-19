@@ -1,0 +1,15 @@
+2019-11-19 00:59:04,457 : INFO : loading LdaModel object from model/lda_model_msim_test_2019-11-19_00-55-41.txt
+2019-11-19 00:59:04,457 : DEBUG : {'transport_params': None, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': 'model/lda_model_msim_test_2019-11-19_00-55-41.txt'}
+2019-11-19 00:59:04,458 : INFO : loading expElogbeta from model/lda_model_msim_test_2019-11-19_00-55-41.txt.expElogbeta.npy with mmap=r
+2019-11-19 00:59:04,471 : INFO : setting ignored attribute state to None
+2019-11-19 00:59:04,472 : INFO : setting ignored attribute id2word to None
+2019-11-19 00:59:04,472 : INFO : setting ignored attribute dispatcher to None
+2019-11-19 00:59:04,472 : INFO : loaded model/lda_model_msim_test_2019-11-19_00-55-41.txt
+2019-11-19 00:59:04,473 : INFO : loading LdaState object from model/lda_model_msim_test_2019-11-19_00-55-41.txt.state
+2019-11-19 00:59:04,474 : DEBUG : {'transport_params': None, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': 'model/lda_model_msim_test_2019-11-19_00-55-41.txt.state'}
+2019-11-19 00:59:04,477 : INFO : loaded model/lda_model_msim_test_2019-11-19_00-55-41.txt.state
+2019-11-19 00:59:04,477 : DEBUG : {'transport_params': None, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': 'model/lda_model_msim_test_2019-11-19_00-55-41.txt.id2word'}
+2019-11-19 00:59:04,508 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2019-11-19 00:59:04,508 : INFO : built Dictionary(30 unique tokens: ['address', 'agenda', 'assess', 'believe', 'benefit']...) from 1 documents (total 34 corpus positions)
+2019-11-19 00:59:04,550 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2019-11-19 00:59:04,550 : INFO : built Dictionary(53 unique tokens: ['approach', 'arguably', 'benchmark', 'biased', 'broadly']...) from 1 documents (total 63 corpus positions)

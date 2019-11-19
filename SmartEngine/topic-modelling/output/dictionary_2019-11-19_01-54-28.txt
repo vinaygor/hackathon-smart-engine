@@ -1,0 +1,10 @@
+2019-11-19 01:54:28.475652
+Dictionary(0 unique tokens: [])
+{}
+
+
+Corpus:[['plastic', 'high', 'corporate', 'agenda', 'review', 'holding', 'evaluate', 'topical', 'issue', 'influence', 'sustainability', 'company', 'return', 'operating', 'capital', 'assess', 'material', 'risk', 'opportunity', 'environmental', 'social', 'governance', 'esg', 'issue', 'believe', 'address', 'plastic', 'consumption', 'company', 'benefit', 'environment', 'create', 'opportunity', 'differentiate'], ['environmental', 'social', 'governance', 'esg', 'factor', 'broadly', 'incorporate', 'investment', 'decision', 'making', 'sovereign', 'fix', 'income', 'investor', 'grapple', 'good', 'way', 'benchmark', 'quantify', 'factor', 'diverse', 'group', 'country', 'use', 'simple', 'approach', 'invest', 'country', 'high', 'party', 'esg', 'rating', 'disagree', 'instead', 'think', 'paint', 'number', 'approach', 'systematically', 'biased', 'develop', 'country', 'potential', 'esg', 'improvement', 'arguably', 'great', 'result', 'pool', 'low', 'yielding', 'highly', 'correlate', 'geographically', 'concentrate', 'country', 'morgan', 'stanley', 'investment', 'management', 'develop', 'consider', 'approach']]
+
+files list:
+['data/im/Plastic Matters',
+ 'data/im/ESG and Sovereign Fixed Income Investing- A Better Way']

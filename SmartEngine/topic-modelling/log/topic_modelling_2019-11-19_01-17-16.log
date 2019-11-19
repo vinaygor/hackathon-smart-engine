@@ -1,0 +1,63 @@
+2019-11-19 01:17:17,348 : INFO : loading LdaModel object from model/lda_model_msim_test_2019-11-19_01-13-03.txt
+2019-11-19 01:17:17,348 : DEBUG : {'transport_params': None, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': 'model/lda_model_msim_test_2019-11-19_01-13-03.txt'}
+2019-11-19 01:17:17,349 : INFO : loading expElogbeta from model/lda_model_msim_test_2019-11-19_01-13-03.txt.expElogbeta.npy with mmap=r
+2019-11-19 01:17:17,364 : INFO : setting ignored attribute state to None
+2019-11-19 01:17:17,365 : INFO : setting ignored attribute id2word to None
+2019-11-19 01:17:17,365 : INFO : setting ignored attribute dispatcher to None
+2019-11-19 01:17:17,365 : INFO : loaded model/lda_model_msim_test_2019-11-19_01-13-03.txt
+2019-11-19 01:17:17,368 : INFO : loading LdaState object from model/lda_model_msim_test_2019-11-19_01-13-03.txt.state
+2019-11-19 01:17:17,368 : DEBUG : {'transport_params': None, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': 'model/lda_model_msim_test_2019-11-19_01-13-03.txt.state'}
+2019-11-19 01:17:17,371 : INFO : loaded model/lda_model_msim_test_2019-11-19_01-13-03.txt.state
+2019-11-19 01:17:17,371 : DEBUG : {'transport_params': None, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': 'model/lda_model_msim_test_2019-11-19_01-13-03.txt.id2word'}
+2019-11-19 01:17:17,635 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2019-11-19 01:17:17,636 : INFO : built Dictionary(392 unique tokens: ['  ', '000', '100', '1991', '20']...) from 1 documents (total 683 corpus positions)
+2019-11-19 01:17:17,801 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2019-11-19 01:17:17,802 : INFO : built Dictionary(321 unique tokens: ['  ', '000', '169', '17', '2']...) from 1 documents (total 576 corpus positions)
+2019-11-19 01:17:18,212 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2019-11-19 01:17:18,214 : INFO : built Dictionary(582 unique tokens: ['  ', '1', '10', '12', '1st']...) from 1 documents (total 1354 corpus positions)
+2019-11-19 01:17:18,640 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2019-11-19 01:17:18,642 : INFO : built Dictionary(661 unique tokens: ['  ', '$', '.2', '1', '1.5']...) from 1 documents (total 1356 corpus positions)
+2019-11-19 01:17:18,826 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2019-11-19 01:17:18,827 : INFO : built Dictionary(325 unique tokens: ['  ', '1', '12', '2000', '2008']...) from 1 documents (total 678 corpus positions)
+2019-11-19 01:17:18,870 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2019-11-19 01:17:18,871 : INFO : built Dictionary(84 unique tokens: ['  ', '1', '10', '2', '2023']...) from 1 documents (total 126 corpus positions)
+2019-11-19 01:17:19,043 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2019-11-19 01:17:19,044 : INFO : built Dictionary(329 unique tokens: ['  ', '1', '10', '100', '2']...) from 1 documents (total 612 corpus positions)
+2019-11-19 01:17:19,409 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2019-11-19 01:17:19,411 : INFO : built Dictionary(613 unique tokens: ['  ', '$', '1', '1.05', '10']...) from 1 documents (total 1465 corpus positions)
+2019-11-19 01:17:19,648 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2019-11-19 01:17:19,649 : INFO : built Dictionary(384 unique tokens: ['  ', '$', '10', '12', '13.4x']...) from 1 documents (total 804 corpus positions)
+2019-11-19 01:17:19,903 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2019-11-19 01:17:19,904 : INFO : built Dictionary(400 unique tokens: ['  ', '0', '1', '10', '2']...) from 1 documents (total 930 corpus positions)
+2019-11-19 01:17:19,935 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2019-11-19 01:17:19,935 : INFO : built Dictionary(36 unique tokens: ['  ', '2018', 'ago', 'ahead', 'build']...) from 1 documents (total 57 corpus positions)
+2019-11-19 01:17:20,119 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2019-11-19 01:17:20,120 : INFO : built Dictionary(300 unique tokens: ['  ', 'able', 'absent', 'access', 'accessible']...) from 1 documents (total 679 corpus positions)
+2019-11-19 01:17:20,530 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2019-11-19 01:17:20,531 : INFO : built Dictionary(617 unique tokens: ['  ', '1', '1.83', '10', '127']...) from 1 documents (total 1606 corpus positions)
+2019-11-19 01:17:20,738 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2019-11-19 01:17:20,739 : INFO : built Dictionary(389 unique tokens: ['  ', '$', '1', '100', '150']...) from 1 documents (total 678 corpus positions)
+2019-11-19 01:17:21,642 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2019-11-19 01:17:21,646 : INFO : built Dictionary(1115 unique tokens: ['  ', '$', '.12', '.18', '.26']...) from 1 documents (total 3457 corpus positions)
+2019-11-19 01:17:21,714 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2019-11-19 01:17:21,715 : INFO : built Dictionary(110 unique tokens: ['  ', '0.9', '10', '14', '1970s']...) from 1 documents (total 167 corpus positions)
+2019-11-19 01:17:21,820 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2019-11-19 01:17:21,821 : INFO : built Dictionary(178 unique tokens: ['  ', '$', '.amchart', '.amcharts', '1']...) from 1 documents (total 372 corpus positions)
+2019-11-19 01:17:22,129 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2019-11-19 01:17:22,130 : INFO : built Dictionary(524 unique tokens: ['  ', '$', '0', '0.3', '0.6']...) from 1 documents (total 1167 corpus positions)
+2019-11-19 01:17:22,147 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2019-11-19 01:17:22,148 : INFO : built Dictionary(24 unique tokens: ['  ', '2019', '22', 'bell', 'click']...) from 1 documents (total 24 corpus positions)
+2019-11-19 01:17:22,265 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2019-11-19 01:17:22,266 : INFO : built Dictionary(246 unique tokens: ['  ', '000', '100', '11', '150']...) from 1 documents (total 458 corpus positions)
+2019-11-19 01:17:22,508 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2019-11-19 01:17:22,509 : INFO : built Dictionary(379 unique tokens: ['  ', '$', '1', '2', '2004']...) from 1 documents (total 910 corpus positions)
+2019-11-19 01:17:22,731 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2019-11-19 01:17:22,733 : INFO : built Dictionary(415 unique tokens: ['  ', '$', '1', '2011', '21']...) from 1 documents (total 733 corpus positions)
+2019-11-19 01:17:22,811 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2019-11-19 01:17:22,812 : INFO : built Dictionary(139 unique tokens: ['  ', '1', '20', '215', '466']...) from 1 documents (total 230 corpus positions)
+2019-11-19 01:17:23,053 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2019-11-19 01:17:23,055 : INFO : built Dictionary(471 unique tokens: ['  ', '$', '1', '1.9x', '10']...) from 1 documents (total 878 corpus positions)
+2019-11-19 01:17:23,173 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2019-11-19 01:17:23,174 : INFO : built Dictionary(257 unique tokens: ['  ', '000', '144', '170', '2.8']...) from 1 documents (total 442 corpus positions)
+2019-11-19 01:17:23,341 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2019-11-19 01:17:23,342 : INFO : built Dictionary(339 unique tokens: ['  ', '0.75', '10', '200', '2016']...) from 1 documents (total 598 corpus positions)
