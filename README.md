@@ -1,6 +1,6 @@
 ## **Hackathon Team 6**
 
-An attempt to find the content gaps between the articles published on MSIM.com and other website which comes under same domain as MSIM.
+An attempt to find the content gaps between the articles published on various websites which falls under financial domain.
 
 ##### Details:
 This project is divided into four separate modules:
@@ -12,19 +12,8 @@ This project is divided into four separate modules:
 Let's learn about them in details below:
 
 ### 1. Web Scraping
-We have scraped insight articles from following websites:
 
-i. Morgan Stanley Investment Management
-
-ii. Bank Of America
-
-iii. J.P.Morgan Asset Management
-
-iv. MorningStar
-
-v. Advisor's Hub
-
-Each of these websites have a different structure on how the content is displayed. Based on the different DOM patterns, we have segregated scraping scripts for each of these websites and can be found under `scraping` folder.
+For this hackathon we have scrapped different websites to fetch the content of the articles published. Each of these websites have a different structure on how the content is displayed. Based on the different DOM patterns, we have segregated scraping scripts for each of these websites and can be found under `scraping` folder.
 
 Run command example: `python msimInsight.py`
 
